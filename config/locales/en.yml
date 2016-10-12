@@ -21,3 +21,23 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    application:
+      framgiaELearning: "Framgia E-Learning"
+    footer:
+      content: "This is web site created in Ruby on Rails"
+    header:
+      framgiaELearning: "Framgia E-Learning"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+  static_pages:
+    help:
+      help: "Help"
+      home: "Home"
+      content: "Let me know how I can help. Please contact to me"
+      mail: "trongttv@gmail.com"
+    home:
+      home: "Home"
+      content: "Wellcome to Framgia E-Learning System"
+      signup: "Sign up now!"
