@@ -8,8 +8,10 @@
   <body>
     <%= render "layouts/header" %>
     <div class="container">
+      <%= render "layouts/flash" %>
       <%= yield %>
     </div>
-    <%= render "layouts/footer"%>
+    <%= render "layouts/footer" %>
+    <%= render "layouts/login" %>
   </body>
 </html>

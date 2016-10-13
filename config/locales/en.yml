@@ -21,6 +21,9 @@
 
 en:
   hello: "Hello world"
+  register_success: "Welcome to Framgia E-Learning!"
+  user_not_found: "User not found!"
+  error_f: "The form contains"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"
@@ -31,13 +34,16 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+  users:
+    new:
+      signup: "Sign up"
   static_pages:
     help:
       help: "Help"
       home: "Home"
-      content: "Let me know how I can help. Please contact to me"
+      content: "Let me know how I can help. Please contact to me!"
       mail: "trongttv@gmail.com"
     home:
       home: "Home"
-      content: "Wellcome to Framgia E-Learning System"
+      content: "Wellcome to Framgia E-Learning System!"
       signup: "Sign up now!"
