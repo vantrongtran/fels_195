@@ -25,6 +25,9 @@ en:
   user_not_found: "User not found!"
   error_f: "The form contains"
   login_fail: "Invalid email/password combination"
+  update_success: "Update success!"
+  please_login: "Please login!"
+  access_denied: "Access denied!"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"
@@ -50,6 +53,10 @@ en:
   users:
     new:
       signup: "Sign up"
+    edit:
+      title: "Update your profile"
+      edit: "Edit user"
+      btn_save: "Save changes"
   static_pages:
     help:
       help: "Help"

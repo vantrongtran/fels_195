@@ -16,4 +16,9 @@ class User < ApplicationRecord
   has_secure_password
 
   before_save {self.email = email.downcase}
+
+  def is_user? user
+    self == user
+  end
+
 end
