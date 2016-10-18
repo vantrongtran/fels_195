@@ -4,11 +4,11 @@
 #
 # To use the locales, use `I18n.t`:
 #
-#     I18n.t 'hello'
+#     I18n.t "hello"
 #
 # In views, this is aliased to just `t`:
 #
-#     <%= t('hello') %>
+#     <%= t("hello") %>
 #
 # To use a different locale, set it with `I18n.locale`:
 #
@@ -24,6 +24,7 @@ en:
   register_success: "Welcome to Framgia E-Learning!"
   user_not_found: "User not found!"
   error_f: "The form contains"
+  login_fail: "Invalid email/password combination"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"
@@ -34,6 +35,18 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      setting: "Settings"
+      profile: "Profile"
+      users: "Users"
+      logout: "Logout"
+      manage: "Manager"
+      category: "Categories"
+      word: "Word"
+    login:
+      login: "Log in"
+      new: "New user?"
+      login: "Log in"
+      signup: "Sign up now!"
   users:
     new:
       signup: "Sign up"
