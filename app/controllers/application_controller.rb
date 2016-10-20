@@ -16,4 +16,18 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  def load_user
+    @user = User.find_by id: params[:id]
+    if @user.nil?
+      flash[:danger] = t "user_not_found"
+      redirect_to root_path
+    end
+  end
+
+  def verify_admin
+    unless current_user.admin?
+      flash[:danger] = t "access_denied"
+      redirect_to root_path
+    end
+  end
 end

@@ -28,6 +28,15 @@ en:
   update_success: "Update success!"
   please_login: "Please login!"
   access_denied: "Access denied!"
+  delete_success: "Delete success!"
+  delete_failed: "Delete failed"
+  category_not_found: "Category not found!"
+  admin:
+    users:
+      index:
+        alluser: "Users manger"
+        confirm_delete: "Are you sure?"
+        search: "Search"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"

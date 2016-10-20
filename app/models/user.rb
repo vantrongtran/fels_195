@@ -17,6 +17,8 @@ class User < ApplicationRecord
 
   before_save {self.email = email.downcase}
 
+  scope :search, ->keyword { where("name LIKE ?", "%#{keyword}%") }
+
   def is_user? user
     self == user
   end
