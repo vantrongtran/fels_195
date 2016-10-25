@@ -25,11 +25,15 @@ en:
   user_not_found: "User not found!"
   error_f: "The form contains"
   login_fail: "Invalid email/password combination"
-  update_success: "Update success!"
   please_login: "Please login!"
   access_denied: "Access denied!"
   delete_success: "Delete success!"
-  delete_failed: "Delete failed"
+  delete_failed: "Delete failed!"
+  cannot_delete: "Cannot detele!"
+  update_success: "Update success!"
+  update_failed: "Update failed!"
+  create_success: "Create success!"
+  create_failed: "Create failed!"
   category_not_found: "Category not found!"
   admin:
     users:
@@ -37,6 +41,20 @@ en:
         alluser: "Users manger"
         confirm_delete: "Are you sure?"
         search: "Search"
+        delete: "Delete"
+    categories:
+      index:
+        allcategory: "Categories manager"
+        search: "Search"
+        word: "Words"
+        delete: "Delete"
+      new:
+        add: "Add"
+      edit:
+        edit: "Update"
+    words:
+      index:
+        allword: "Words manager"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"
