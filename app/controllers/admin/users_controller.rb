@@ -11,6 +11,10 @@ class Admin::UsersController < ApplicationController
           render json: @users
         end
       end
+    elsif params[:search]
+      @users = User.user.search(params[:search]).
+        paginate page: params[:page],
+        per_page: Settings.per_page
     else
       @users = User.user.paginate page: params[:page],
         per_page: Settings.per_page

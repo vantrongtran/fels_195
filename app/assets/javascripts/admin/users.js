@@ -13,7 +13,7 @@ function del(userId) {
 }
 
 $(document).ready(function() {
-  $("#search").keyup(function () {
+  $("#user_search").keyup(function () {
     key = $(this).val();
     $.ajax({
       type: 'GET',

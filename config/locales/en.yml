@@ -35,6 +35,9 @@ en:
   create_success: "Create success!"
   create_failed: "Create failed!"
   category_not_found: "Category not found!"
+  not_found: "Not found!"
+  answer_must_more_one: "Answer must more one!"
+  word_must_has_correct_answer: "Word must has correct answer!"
   admin:
     users:
       index:
@@ -55,6 +58,16 @@ en:
     words:
       index:
         allword: "Words manager"
+        delete: "Delete"
+      new:
+        add: "Add"
+      answer_fields:
+        answer_name: "Answer name"
+        is_correct: "Correct"
+      edit:
+        update: "Save changes"
+      form:
+        add: "Add"
   layouts:
     application:
       framgiaELearning: "Framgia E-Learning"
@@ -72,6 +85,7 @@ en:
       manage: "Manager"
       category: "Categories"
       word: "Word"
+      search: "Enter name to search..."
     login:
       login: "Log in"
       new: "New user?"
@@ -84,6 +98,10 @@ en:
       title: "Update your profile"
       edit: "Edit user"
       btn_save: "Save changes"
+    index:
+      result: "Results"
+    show:
+      activity: "Activities"
   static_pages:
     help:
       help: "Help"
